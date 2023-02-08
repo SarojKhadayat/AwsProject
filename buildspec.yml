@@ -6,6 +6,7 @@ phases:
         
   pre_build:
     commands:
+      - cd AwsApiProject/src/AwsApiProject
       - echo Restore started
       - dotnet restore AwsApiProject.csproj
       
