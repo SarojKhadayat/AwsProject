@@ -13,4 +13,4 @@ phases:
   build:
     commands:
       - echo build started
-      - dotnet publish -c release -o ./build_output AwsApiProject.csproj
+      - dotnet publish --no-restore -c release -o ./build_output AwsApiProject.csproj
