@@ -1,5 +1,8 @@
 version: 0.2
 phases:
+  install:
+    runtime-versions:
+      dotnet: latest
   pre_build:
     commands:
       - echo Restore started
