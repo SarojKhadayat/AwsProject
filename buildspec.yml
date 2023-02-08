@@ -1,10 +1,5 @@
 version: 0.2
 phases:
-  install:
-    runtime-versions:
-      dotnet: 6.0
-    commands:
-      - echo installing requirements.
   pre_build:
     commands:
       - echo Restore started
