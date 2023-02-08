@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AwsApiProject/src/AwsApiProject/bin
+/AwsApiProject/src/AwsApiProject/build_output
+/AwsApiProject/src/AwsApiProject/obj/release/net6.0/win-x64
