@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      dotnet: latest
+    commands:
+      - echo installing requirements.
+  pre_build:
+    commands:
+      - echo Restore started
+      - dotnet restore AwsApiProject.csproj
+  build:
+    commands:
+      - echo build started
+      - dotnet publish -c release -o ./build_output AwsApiProject.csproj
