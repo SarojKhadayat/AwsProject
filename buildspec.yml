@@ -1,12 +1,14 @@
 version: 0.2
 phases:
   install:
-     commands:
-      - /usr/local/bin/dotnet-install.sh --channel LTS
+      runtime-versions:
+        dotnet: latest
+        
   pre_build:
     commands:
       - echo Restore started
       - dotnet restore AwsApiProject.csproj
+      
   build:
     commands:
       - echo build started
