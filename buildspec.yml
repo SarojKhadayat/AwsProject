@@ -14,3 +14,8 @@ phases:
     commands:
       - echo build started
       - dotnet publish -c release -o ./build_output AwsApiProject.csproj
+artifacts:
+  files:
+    - AwsApiProject/build_output/**/*
+    - scripts/**/*
+    - appspec.yml
