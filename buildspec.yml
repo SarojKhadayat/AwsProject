@@ -17,5 +17,4 @@ phases:
 artifacts:
   files:
     - AwsApiProject/build_output/**/*
-    - scripts/**/*
-    - appspec.yml
+ 
